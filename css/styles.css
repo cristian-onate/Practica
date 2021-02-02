@@ -1,0 +1,24 @@
+.main-ul__item1 {
+    margin-top: 10px;
+    background-color: grey;
+    list-style: none;
+}
+.main-ul {
+    
+    font-size: 30px;
+    color: cornflowerblue;
+    padding: 0;
+}
+.main-ul__item a:active {
+    color: red;
+
+}
+.main-ul__item a:hover {
+    color: blue;
+}
+.main-ul__item a {
+    font-size: 15px;
+    color: cornflowerblue;
+    text-decoration: none;
+  
+}
