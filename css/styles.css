@@ -1,14 +1,8 @@
-/* Se recomienda que este modelo universal vaya siempre */
-* {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
+html {
+    font-size: 75%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-/* El navegador toma el 20px como arriba y abajo, y el 35 
-como la derecha y la izquierda */
-main {
-    width: 100%;
-    height: 500px;
-    border: 10px solid grey;
-    padding: 20px 35px;
+
+h1 {
+    font-size: inherit;
 }
